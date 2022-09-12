@@ -1,0 +1,92 @@
+:root {
+  --color-red-dark: #591e1b;
+  --color-red-light: #e8abaa;
+  --color-red-lighter: #efc5c2;
+  --color-green-dark: #28513b;
+  --color-green-light: #96edad;
+  --color-green-lighter: #b7ecc4;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.page-wrapper {
+  width: fit-content;
+  margin: auto;
+}
+
+.container {
+  border: 1px solid black;
+  width: 500px;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+/* Button Animations */
+.btn {
+  margin: 0 0.75rem;
+  padding: 0.6rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  font-weight: 700;
+  font-size: 17px;
+  transition: all 0.25s ease-in-out;
+  height: fit-content;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn-accept {
+  background: var(--color-green-light);
+  color: var(--color-green-dark);
+}
+
+.btn-accept:hover {
+  background: var(--color-green-lighter);
+}
+
+.btn-cancel {
+  background: var(--color-red-light);
+  color: var(--color-red-dark);
+}
+
+.btn-cancel:hover {
+  background: var(--color-red-lighter);
+}
+
+/* Potato Animation */
+.potato {
+  position: absolute;
+  animation: run 5s linear infinite;
+}
+
+@keyframes run {
+  0% {
+    left: 0;
+  }
+  48% {
+    -webkit-transform: rotateY(0deg);
+  }
+  50% {
+    left: 400px;
+    -webkit-transform: rotateY(180deg);
+  }
+  98% {
+    -webkit-transform: rotateY(180deg);
+  }
+  100% {
+    left: 0;
+    -webkit-transform: rotateY(0deg);
+  }
+}
