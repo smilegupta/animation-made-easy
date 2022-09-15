@@ -1,0 +1,74 @@
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1.125rem;
+  border-radius: var(--button-border);
+}
+
+/*************** Primary Button Styles ***************/
+
+.btn-solid-primary {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.btn-outline-primary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-icon-primary {
+  color: var(--primary-color);
+}
+
+.link-text-primary {
+  text-decoration: underline var(--primary-color);
+  text-underline-position: under;
+  color: var(--primary-color);
+}
+
+/*************** Secondary Button Styles ***************/
+
+.btn-solid-secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.btn-outline-secondary {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.btn-icon-secondary {
+  color: var(--secondary-color);
+}
+
+.link-text-secondary {
+  text-decoration: underline var(--secondary-color);
+  text-underline-position: under;
+  color: var(--secondary-color);
+}
+
+/*************** Disabled Button Styles ***************/
+
+.btn-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/*************** Buttons with Different Sizes ***************/
+
+.btn-lg {
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+}
+.btn-sm {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+}

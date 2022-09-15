@@ -1,0 +1,153 @@
+.m-0 {
+  margin: 0px;
+}
+
+.m-1 {
+  margin: calc(1 * var(--margin));
+}
+
+.m-2 {
+  margin: calc(2 * var(--margin));
+}
+
+.m-3 {
+  margin: calc(3 * var(--margin));
+}
+
+.m-4 {
+  margin: calc(4 * var(--margin));
+}
+
+.m-5 {
+  margin: calc(5 * var(--margin));
+}
+
+.mt-1 {
+  margin-top: calc(1 * var(--margin));
+}
+
+.mt-2 {
+  margin-top: calc(2 * var(--margin));
+}
+
+.mt-3 {
+  margin-top: calc(3 * var(--margin));
+}
+
+.mt-4 {
+  margin-top: calc(4 * var(--margin));
+}
+
+.mt-5 {
+  margin-top: calc(5 * var(--margin));
+}
+
+.mb-1 {
+  margin-bottom: calc(1 * var(--margin));
+}
+
+.mb-2 {
+  margin-bottom: calc(2 * var(--margin));
+}
+
+.mb-3 {
+  margin-bottom: calc(3 * var(--margin));
+}
+
+.mb-4 {
+  margin-bottom: calc(4 * var(--margin));
+}
+
+.mb-5 {
+  margin-bottom: calc(5 * var(--margin));
+}
+
+.ml-1 {
+  margin-left: calc(1 * var(--margin));
+}
+
+.ml-2 {
+  margin-left: calc(2 * var(--margin));
+}
+
+.ml-3 {
+  margin-left: calc(3 * var(--margin));
+}
+
+.ml-4 {
+  margin-left: calc(4 * var(--margin));
+}
+
+.ml-5 {
+  margin-left: calc(5 * var(--margin));
+}
+
+.mr-1 {
+  margin-right: calc(1 * var(--margin));
+}
+
+.mr-2 {
+  margin-right: calc(2 * var(--margin));
+}
+
+.mr-3 {
+  margin-right: calc(3 * var(--margin));
+}
+
+.mr-4 {
+  margin-right: calc(4 * var(--margin));
+}
+
+.mr-5 {
+  margin-right: calc(5 * var(--margin));
+}
+
+.mx-1 {
+  margin-left: calc(1 * var(--margin));
+  margin-right: calc(1 * var(--margin));
+}
+
+.mx-2 {
+  margin-left: calc(2 * var(--margin));
+  margin-right: calc(2 * var(--margin));
+}
+
+.mx-3 {
+  margin-left: calc(3 * var(--margin));
+  margin-right: calc(3 * var(--margin));
+}
+
+.mx-4 {
+  margin-left: calc(4 * var(--margin));
+  margin-right: calc(4 * var(--margin));
+}
+
+.mx-5 {
+  margin-left: calc(5 * var(--margin));
+  margin-right: calc(5 * var(--margin));
+}
+
+.my-1 {
+  margin-top: calc(1 * var(--margin));
+  margin-bottom: calc(1 * var(--margin));
+}
+
+.my-2 {
+  margin-top: calc(2 * var(--margin));
+  margin-bottom: calc(2 * var(--margin));
+}
+
+.my-3 {
+  margin-top: calc(3 * var(--margin));
+  margin-bottom: calc(3 * var(--margin));
+}
+
+.my-4 {
+  margin-top: calc(4 * var(--margin));
+  margin-bottom: calc(4 * var(--margin));
+}
+
+.my-5 {
+  margin-top: calc(5 * var(--margin));
+  margin-bottom: calc(5 * var(--margin));
+}

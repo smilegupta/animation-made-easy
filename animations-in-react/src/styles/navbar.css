@@ -1,0 +1,30 @@
+.navbar {
+  min-height: 10vh;
+  width: 100%;
+  align-items: center;
+  background-image: linear-gradient(to right top,#3855aa,#4c539a,#57538b,#5c537d,#5e5470);;
+  font-weight: 500;
+  color: hsl(230, 22%, 20%);
+  padding: 1.5rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.navbar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-branding {
+  font-weight: var(--font-bold);
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: "Marck Script", cursive;
+}
+
+.navbar-icon {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+}

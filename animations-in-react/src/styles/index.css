@@ -1,0 +1,19 @@
+@import "styles/variables.css";
+@import "styles/navbar.css";
+@import "styles/button.css";
+@import "styles/margin.css";
+@import "styles/padding.css";
+@import "styles/typography.css";
+@import "styles/utils.css";
+
+body{
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-color: #e1e7f7;
+}

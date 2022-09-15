@@ -1,0 +1,28 @@
+:root {
+  /* 1rem = 16px */
+  --default-font-size: 87.5%; /* 14px */
+  --primary-color: #de2b64;
+  --secondary-color: #5e5470;
+  --info-color: #29438b;
+  --warning-color: #ff9204;
+  --danger-color: #dc3545;
+  --success-color: #1b7052;
+  --text-color: #ffffff;
+  --dark-grey: rgb(100, 100, 100);
+  --grey: rgb(150, 150, 150);
+  --grey-highlight: rgb(150, 150, 150, 0.5);
+  --light-grey: rgb(240, 240, 240);
+  --default-box-shadow: 0px 3px 6px 0px rgb(105 111 125 / 49%);
+  --padding-form-elements: 16px 13px;
+  --padding: 0.25rem;
+  --margin: 0.25rem;
+  --font-light: 300;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  --button-border: 0.25rem;
+  --form-elements-border: 0.25rem;
+  --white: #ffffff;
+  --black: #000000;
+  --overlay: rgba(0, 0, 0, 0.5);
+}
