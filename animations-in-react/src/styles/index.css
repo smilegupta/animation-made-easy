@@ -6,13 +6,12 @@
 @import "styles/typography.css";
 @import "styles/utils.css";
 
-body{
+body {
   padding: 0;
   margin: 0;
+  background-color: #e1e7f7;
 }
 
-.container{
-  height: 100vh;
-  width: 100vw;
-  background-color: #e1e7f7;
+.page-contents h6{
+  margin-top: 1rem;
 }
