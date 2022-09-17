@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 225px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 2px solid var(--primary-color);
+  pointer-events: none;
+}
+
+.inputs-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+label code {
+  width: 100px;
+}
+
+input {
+  accent-color: var(--primary-color);
+  background: none;
+}
+
+input[type="number"] {
+    border: 0;
+    border-bottom: 1px dotted var(--accent);
+    color: var(--accent);
+    margin-left: 10px;
+  }
+
+input[type="number"]:focus {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

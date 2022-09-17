@@ -1,0 +1,22 @@
+@import "common-styles/variables.css";
+@import "common-styles/navbar.css";
+@import "common-styles/button.css";
+@import "common-styles/margin.css";
+@import "common-styles/padding.css";
+@import "common-styles/typography.css";
+@import "common-styles/utils.css";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e1e7f7;
+}
+
+.page-contents h6 {
+  margin-top: 1rem;
+}
