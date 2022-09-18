@@ -15,15 +15,15 @@ const PageContents = () => {
         </li>
         <li>
           {" "}
-          <h6> Making a loader button with animation </h6>
-        </li>
-        <li>
-          {" "}
           <h6> Making Animation using keyframes </h6>{" "}
         </li>
         <li>
           {" "}
           <h6> Say Hello to Framer Gestures </h6>
+        </li>
+        <li>
+          {" "}
+          <h6> Making a loader button with animation </h6>
         </li>
         <li>
           {" "}
@@ -36,10 +36,6 @@ const PageContents = () => {
         <li>
           {" "}
           <h6> Animation Challege 3 </h6>{" "}
-        </li>
-        <li>
-          {" "}
-          <h6> Shared Layout Animations </h6>{" "}
         </li>
         <li>
           {" "}
