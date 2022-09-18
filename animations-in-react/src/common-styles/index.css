@@ -21,6 +21,10 @@ body {
   margin-top: 1rem;
 }
 
+.page-wrapper {
+  padding-top: 100px;
+}
+
 .refresh {
   padding: 5px;
   position: absolute;

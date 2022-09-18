@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 225px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: var(--secondary-color);
+}
+
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--primary-color);
+  transform-origin: 0%;
+}
