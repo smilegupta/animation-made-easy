@@ -47,7 +47,7 @@ const PageContents = () => {
         </li>
         <li>
           {" "}
-          <h6> Exit Animation Example 1 </h6>
+          <h6> Exit Animation Example </h6>
         </li>
         <li>
           {" "}
