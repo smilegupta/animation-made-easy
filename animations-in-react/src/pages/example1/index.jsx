@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-import "pages/example1/styles.css";
+import "pages/example2/styles.css";
 
 const Example1 = () => {
   const [x, setX] = useState(0);
