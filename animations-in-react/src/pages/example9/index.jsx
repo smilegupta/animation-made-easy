@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 
 import "pages/example9/styles.css";
@@ -12,10 +12,10 @@ const Example9 = () => {
   });
 
   return (
-    <>
+    <Fragment>
       <motion.div className="progress-bar" style={{ scaleX }} />
       <DummyPageContent />
-    </>
+    </Fragment>
   );
 };
 
