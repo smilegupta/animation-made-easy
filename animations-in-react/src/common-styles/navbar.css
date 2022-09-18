@@ -1,5 +1,5 @@
 .navbar {
-  min-height: 10vh;
+  min-height: 100px;
   width: 100%;
   align-items: center;
   background-image: linear-gradient(to right top,#3855aa,#4c539a,#57538b,#5c537d,#5e5470);;
