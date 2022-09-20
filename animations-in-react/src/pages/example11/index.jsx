@@ -6,15 +6,13 @@ import "pages/example11/styles.css";
 const Example11 = () => {
   const draw = {
     hidden: { pathLength: 0, opacity: 0 },
-    visible: (i) => {
-      return {
-        pathLength: 1,
-        opacity: 1,
-        transition: {
-          duration: 2,
-          ease: "easeInOut",
-        },
-      };
+    visible: {
+      pathLength: 1,
+      opacity: 1,
+      transition: {
+        duration: 2,
+        ease: "easeInOut",
+      },
     },
   };
 
