@@ -11,7 +11,7 @@ const Example6 = () => {
      <motion.div
       className="example6-box"
       initial={{ opacity: 0.1 }}
-      animate={{ x: isAnimating ? 1150 : 0, opacity: isAnimating ? 1: 0.1, rotate: isAnimating ? 360: 0}}
+      animate={{ x: isAnimating ? 1150 : 0, opacity: isAnimating ? 1: 0.5, rotate: isAnimating ? 360: 0}}
       // spring cant be use with duration
       // decrease stiffness ->  slow
       // dampling -> again make it slow
