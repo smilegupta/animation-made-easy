@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import "pages/example7/styles.css";
 
-const Example6 = () => {
+const Example7 = () => {
   return (
     <main className="example7-wrapper">
       <motion.div className="example7-box" />
@@ -11,4 +11,4 @@ const Example6 = () => {
   );
 };
 
-export default Example6;
+export default Example7;
