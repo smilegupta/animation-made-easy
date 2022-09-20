@@ -1,0 +1,15 @@
+.example4-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 100px;
+  align-items: initial;
+  padding: 0px 50px;
+}
+
+.example4-box {
+  width: 200px;
+  height: 200px;
+  background-color: var(--secondary-color);
+  border-radius: 0;
+}
