@@ -23,10 +23,6 @@ const PageContents = () => {
         </li>
         <li>
           {" "}
-          <h6> Making a loader button with animation </h6>
-        </li>
-        <li>
-          {" "}
           <h6> Animation Challege 1 </h6>{" "}
         </li>
         <li>
