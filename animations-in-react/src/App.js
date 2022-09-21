@@ -7,6 +7,7 @@ import Example1 from "pages/example1";
 import Example2 from "pages/example2";
 import Example3 from "pages/example3";
 import Example4 from "pages/example4";
+import Example5 from "pages/example5";
 import Example6 from "pages/example6";
 import Example7 from "pages/example7";
 import Example8 from "pages/example8";
@@ -27,6 +28,7 @@ function App() {
           <Route path="/example-2" element={<Example2 />} />
           <Route path="/example-3" element={<Example3 />} />
           <Route path="/example-4" element={<Example4 />} />
+          <Route path="/example-5" element={<Example5 />} />
           <Route path="/example-6" element={<Example6 />} />
           <Route path="example-7" element={<Example7 />} />
           <Route path="/example-8" element={<Example8 />} />

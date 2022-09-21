@@ -8,7 +8,7 @@ const Example6 = () => {
 
   return (
     <Fragment>
-      <h1 className="page-title">Challenge 1</h1>
+      <h1 className="page-title">Animation Challege 1</h1>
       <div className="example6-wrapper">
         <motion.div
           className="example6-box"

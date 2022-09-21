@@ -16,6 +16,7 @@ const Example10 = () => {
             onClick={() => {
               setCurrent(current - 1);
             }}
+            className="btn btn-solid-secondary"
           >
             Prev
           </motion.button>
@@ -24,6 +25,7 @@ const Example10 = () => {
             onClick={() => {
               setCurrent(current + 1);
             }}
+            className="btn btn-solid-secondary"
           >
             Next
           </motion.button>
