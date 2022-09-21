@@ -31,7 +31,7 @@ const Example7 = () => {
 
   return (
     <Fragment>
-      <h1 className="page-title"> Animation Challege 2 </h1>
+      <h1 className="page-title"> Animation Challege 3</h1>
       <div className="example7-wrapper">
         <motion.div
           className="example7-box"
