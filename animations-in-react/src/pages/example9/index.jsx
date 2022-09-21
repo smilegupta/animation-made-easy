@@ -8,11 +8,12 @@ const Example9 = () => {
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
-    restDelta: 0.001
+    restDelta: 0.001,
   });
 
   return (
     <Fragment>
+      <h1 className="page-title"> On Scroll Animation Example 2 </h1>
       <motion.div className="progress-bar" style={{ scaleX }} />
       <DummyPageContent />
     </Fragment>

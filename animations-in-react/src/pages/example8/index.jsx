@@ -1,18 +1,18 @@
-import React from "react";
+import React, {Fragment} from "react";
 import { motion } from "framer-motion";
 
 import "pages/example8/styles.css";
 
 const cardVariants = {
   hidden: {
-    x: -1000
+    x: -1000,
   },
   visible: {
-   x: 0,
-   transition: {
-     duration: 2
-   }
-  }
+    x: 0,
+    transition: {
+      duration: 2,
+    },
+  },
 };
 
 function Card({ emoji }) {
@@ -30,12 +30,19 @@ function Card({ emoji }) {
   );
 }
 
-const animals = [ '🐨', '🐻‍', '🐶', '🐱', '🐰'];
+const animals = ["🐨", "🐻‍", "🐶", "🐱", "🐰"];
 
 const Example8 = () => {
-  return animals.map((emoji) => (
-    <Card emoji={emoji} key={emoji} />
-  ));
+  return (
+    <Fragment>
+      <h1 className="page-title">On Scroll Animation Example 1</h1>
+      <Fragment>
+        {animals.map((emoji) => (
+          <Card emoji={emoji} key={emoji} />
+        ))}
+      </Fragment>
+    </Fragment>
+  );
 };
 
 export default Example8;

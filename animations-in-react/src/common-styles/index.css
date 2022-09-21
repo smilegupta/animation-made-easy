@@ -25,6 +25,11 @@ body {
   padding-top: 130px;
 }
 
+.page-title {
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
+
 .refresh {
   padding: 5px;
   position: absolute;

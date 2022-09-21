@@ -14,7 +14,7 @@ import Example9 from "pages/example9";
 import Example10 from "pages/example10";
 import Example11 from "pages/example11";
 import Example12 from "pages/example12";
-import Example14 from "pages/example14";
+import Example13 from "pages/example13";
 
 function App() {
   return (
@@ -34,7 +34,7 @@ function App() {
           <Route path="/example-10" element={<Example10 />} />
           <Route path="/example-11" element={<Example11 />} />
           <Route path="/example-12" element={<Example12 />} />
-          <Route path="/example-14" element={<Example14 />} />
+          <Route path="/example-13" element={<Example13 />} />
         </Routes>
       </div>
     </div>

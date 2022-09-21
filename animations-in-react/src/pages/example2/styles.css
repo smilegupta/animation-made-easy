@@ -1,11 +1,11 @@
-.wrapper {
+.example2-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 225px;
+  margin-top: 150px;
 }
 
-.box {
+.example2-box {
   width: 200px;
   height: 200px;
   border-radius: 50%;

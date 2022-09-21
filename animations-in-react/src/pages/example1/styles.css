@@ -1,11 +1,11 @@
-.wrapper {
+.example1-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 225px;
+  margin-top: 150px;
 }
 
-.box {
+.example1-box {
   width: 200px;
   height: 200px;
   border-radius: 20px;
@@ -28,7 +28,6 @@ label {
 label code {
   width: 100px;
   font-size: 16px;
-
 }
 
 input {
@@ -37,11 +36,11 @@ input {
 }
 
 input[type="number"] {
-    border: 0;
-    border-bottom: 1px dotted var(--accent);
-    color: var(--accent);
-    margin-left: 10px;
-  }
+  border: 0;
+  border-bottom: 1px dotted var(--accent);
+  color: var(--accent);
+  margin-left: 10px;
+}
 
 input[type="number"]:focus {
   outline: none;

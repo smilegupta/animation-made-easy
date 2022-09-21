@@ -63,15 +63,7 @@ const PageContents = () => {
         </li>
         <li>
           {" "}
-          <h6> Animation Challenge 5</h6>
-        </li>
-        <li>
-          {" "}
           <h6> Route Animations </h6>{" "}
-        </li>
-        <li>
-          {" "}
-          <h6> Animation Challenge 6 </h6>
         </li>
       </ul>
     </main>

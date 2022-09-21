@@ -1,11 +1,11 @@
-.wrapper {
+.example3-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 225px;
+  margin-top: 150px;
 }
 
-.box {
+.example3-box {
   width: 200px;
   height: 200px;
   background-color: var(--secondary-color);
