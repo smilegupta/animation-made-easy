@@ -59,7 +59,7 @@ const PageContents = () => {
         </li>
         <li>
           {" "}
-          <h6> Route Animations </h6>{" "}
+          <h6> Final Challenge: Can you create route animations? </h6>{" "}
         </li>
       </ul>
     </main>
