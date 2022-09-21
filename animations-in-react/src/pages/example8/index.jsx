@@ -1,32 +1,12 @@
-import React, {Fragment} from "react";
-import { motion } from "framer-motion";
+import React, { Fragment } from "react";
 
 import "pages/example8/styles.css";
 
-const cardVariants = {
-  hidden: {
-    x: -1000,
-  },
-  visible: {
-    x: 0,
-    transition: {
-      duration: 2,
-    },
-  },
-};
-
 function Card({ emoji }) {
   return (
-    <motion.div
-      className="card-container"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.8 }}
-    >
-      <motion.div className="card" variants={cardVariants}>
-        {emoji}
-      </motion.div>
-    </motion.div>
+    <div className="card-container">
+      <div className="card">{emoji}</div>
+    </div>
   );
 }
 

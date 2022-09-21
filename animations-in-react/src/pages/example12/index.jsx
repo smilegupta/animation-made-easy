@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, { Fragment } from "react";
 import {
   star,
   heart,
@@ -7,8 +7,6 @@ import {
   lightning,
   note,
 } from "pages/example12/paths";
-import { motion, useMotionValue, useTransform, animate } from "framer-motion";
-import { interpolate } from "flubber";
 
 import "pages/example12/styles.css";
 
@@ -24,35 +22,13 @@ const colors = [
 ];
 
 const Example12 = () => {
-  const [pathIndex, setPathIndex] = useState(0);
-  const progress = useMotionValue(pathIndex);
-  const fill = useTransform(progress, paths.map(getIndex), colors);
-  const path = useFlubber(progress, paths);
-
-  useEffect(() => {
-    const animation = animate(progress, pathIndex, {
-      duration: 0.8,
-      ease: "easeInOut",
-      onComplete: () => {
-        if (pathIndex === paths.length - 1) {
-          progress.set(0);
-          setPathIndex(1);
-        } else {
-          setPathIndex(pathIndex + 1);
-        }
-      },
-    });
-
-    return () => animation.stop();
-  }, [pathIndex]);
-
   return (
     <Fragment>
       <h1 className="page-title"> Animation Challenge 4 </h1>
       <div className="example12-wrapper">
         <svg width="400" height="400">
           <g transform="translate(10 10) scale(17 17)">
-            <motion.path fill={fill} d={path} />
+            <path fill="#ee4444" d={heart} />
           </g>
         </svg>
       </div>
@@ -61,11 +37,3 @@ const Example12 = () => {
 };
 
 export default Example12;
-
-const getIndex = (_, index) => index;
-
-function useFlubber(progress, paths) {
-  return useTransform(progress, paths.map(getIndex), paths, {
-    mixer: (a, b) => interpolate(a, b, { maxSegmentLength: 0.1 }),
-  });
-}

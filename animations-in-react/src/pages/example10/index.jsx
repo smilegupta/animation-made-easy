@@ -1,5 +1,4 @@
 import React, { useState, Fragment } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 
 import "pages/example10/styles.css";
 
@@ -11,38 +10,27 @@ const Example10 = () => {
       <h1 className="page-title"> Exit Animation Example </h1>
       <div className="example10-wrapper">
         <div className="controls">
-          <motion.button
-            whileTap={{ scale: 0.95 }}
+          <button
             onClick={() => {
               setCurrent(current - 1);
             }}
             className="btn btn-solid-secondary"
           >
             Prev
-          </motion.button>
-          <motion.button
-            whileTap={{ scale: 0.95 }}
+          </button>
+          <button
             onClick={() => {
               setCurrent(current + 1);
             }}
             className="btn btn-solid-secondary"
           >
             Next
-          </motion.button>
+          </button>
         </div>
 
-        <AnimatePresence mode="wait">
-          <motion.div
-            className="example10-box"
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            exit={{ scale: 0.8, opacity: 0 }}
-            transition={{ type: "spring" }}
-            key={current}
-          >
-            {current}
-          </motion.div>
-        </AnimatePresence>
+        <div className="example10-box" key={current}>
+          {current}
+        </div>
       </div>
     </Fragment>
   );

@@ -1,20 +1,12 @@
 import React, { Fragment } from "react";
-import { motion, useScroll, useSpring } from "framer-motion";
 
 import "pages/example9/styles.css";
 
 const Example9 = () => {
-  const { scrollYProgress } = useScroll();
-  const scaleX = useSpring(scrollYProgress, {
-    stiffness: 100,
-    damping: 30,
-    restDelta: 0.001,
-  });
-
   return (
     <Fragment>
       <h1 className="page-title"> On Scroll Animation Example 2 </h1>
-      <motion.div className="progress-bar" style={{ scaleX }} />
+      <div className="progress-bar" />
       <DummyPageContent />
     </Fragment>
   );
