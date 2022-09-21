@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Smile Gupta" />
+    <title>Making Performant Animations</title>
+    <style>
+      body {
+        display: flex;
+      }
+
+      p {
+        flex-shrink: 1;
+        overflow: hidden;
+        background-color: #ccc;
+        padding: 0.25rem;
+      }
+
+      p {
+        animation: margin-down 1s infinite alternate linear;
+      }
+
+      @keyframes margin-down {
+        from {
+          margin-top: 0;
+        }
+
+        to {
+          margin-top: 300px;
+        }
+      }
+
+      @keyframes translate-down {
+        from {
+          transform: translateY(0);
+        }
+
+        to {
+          transform: translateY(300px);
+        }
+      }
+
+      @keyframes color-down {
+        from {
+          color: black;
+        }
+
+        to {
+          color: white;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac
+      rhoncus quam.
+    </p>
+    <p>
+      Fringilla quam urna. Cras turpis elit, euismod eget ligula quis, imperdiet
+      sagittis justo. In viverra fermentum ex ac vestibulum. Aliquam eleifend
+      nunc a luctus porta. Mauris laoreet augue ut felis blandit, at iaculis
+      odio ultrices. Nulla facilisi. Vestibulum cursus ipsum tellus, eu
+      tincidunt neque tincidunt a.
+    </p>
+
+    <p>
+      In eget sodales arcu, consectetur efficitur metus. Duis efficitur
+      tincidunt odio, sit amet laoreet massa fringilla eu.
+    </p>
+    <p>
+      Pellentesque id lacus pulvinar elit pulvinar pretium ac non urna. Mauris
+      id mauris vel arcu commodo venenatis. Aliquam eu risus arcu. Proin sit
+      amet lacus mollis, semper massa ut, rutrum mi.
+    </p>
+    <p>Sed sem nisi, luctus consequat ligula in, congue sodales nisl.</p>
+    <p>
+      Vestibulum bibendum at erat sit amet pulvinar. Pellentesque pharetra leo
+      vitae tristique rutrum. Donec ut volutpat ante, ut suscipit leo.
+    </p>
+
+    <p>
+      Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
+      aliquet. Pellentesque auctor vehicula malesuada. Aliquam id feugiat sem,
+      sit amet tempor nulla. Quisque fermentum felis faucibus, vehicula metus
+      ac, interdum nibh. Curabitur vitae convallis ligula. Integer ac enim vel
+      felis pharetra laoreet. Interdum et malesuada fames ac ante ipsum primis
+      in faucibus. Pellentesque hendrerit ac augue quis pretium.
+    </p>
+    <p>
+      Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
+      elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
+      ultricies, mollis mi in, euismod dolor.
+    </p>
+    <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
+    <p>
+      Pellentesque id lacus pulvinar elit pulvinar pretium ac non urna. Mauris
+      id mauris vel arcu commodo venenatis. Aliquam eu risus arcu. Proin sit
+      amet lacus mollis, semper massa ut, rutrum mi.
+    </p>
+    <p>Sed sem nisi, luctus consequat ligula in, congue sodales nisl.</p>
+    <p>
+      Vestibulum bibendum at erat sit amet pulvinar. Pellentesque pharetra leo
+      vitae tristique rutrum. Donec ut volutpat ante, ut suscipit leo.
+    </p>
+
+    <p>
+      Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum fringilla
+      aliquet. Pellentesque auctor vehicula malesuada. Aliquam id feugiat sem,
+      sit amet tempor nulla. Quisque fermentum felis faucibus, vehicula metus
+      ac, interdum nibh. Curabitur vitae convallis ligula. Integer ac enim vel
+      felis pharetra laoreet. Interdum et malesuada fames ac ante ipsum primis
+      in faucibus. Pellentesque hendrerit ac augue quis pretium.
+    </p>
+    <p>
+      Morbi ut scelerisque nibh. Integer auctor, massa non dictum tristique,
+      elit metus efficitur elit, ac pretium sapien nisl nec ante. In et ex
+      ultricies, mollis mi in, euismod dolor.
+    </p>
+    <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
+  </body>
+</html>
+
+<!-- To Do: Show Render and Performance Monitor -->
+
+<!-- Learnings: 
+  1) Avoid Layout and Paint
+  2) Best Properties: Translate, Scale, Opacity, Rotation
+  Like most properties you can use under transform
+  3) Avoid Background Color, Margins and layout calculation
+  4) Hover Button -> You can
+-->
