@@ -1,13 +1,15 @@
-import React from 'react';
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export const Header = () => {
+  const navigate = useNavigate();
   return (
-    <nav class="navbar box-shadow">
-    <div id="navbar-menu-desktop" class="navbar-section">
-      <div class="navbar-branding mr-3">
-        Let's Code Animations
+    <nav className="navbar box-shadow">
+      <div id="navbar-menu-desktop" className="navbar-section">
+        <div className="navbar-branding mr-3" onClick={() => navigate("/")}>
+          Let's Code Animations
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
   );
 };

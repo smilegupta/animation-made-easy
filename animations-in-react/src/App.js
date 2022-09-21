@@ -37,6 +37,15 @@ function App() {
           <Route path="/example-11" element={<Example11 />} />
           <Route path="/example-12" element={<Example12 />} />
           <Route path="/example-13" element={<Example13 />} />
+          <Route
+            path="*"
+            element={
+              <h1 className="text-center text-secondary-color" style={{ marginTop: "250px" }}>
+                {" "}
+                Page not found
+              </h1>
+            }
+          />
         </Routes>
       </div>
     </div>

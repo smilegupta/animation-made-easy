@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, useLocation } from "react-router-dom";
 
 import App from "App";
 import { Refresh } from "shared-components/refresh";
@@ -16,10 +16,14 @@ root.render(
 
 function AppWithUI() {
   const [count, setCount] = useState(0);
+  const location = useLocation();
 
   return (
     <Fragment>
-      <Refresh onClick={() => setCount(count + 1)} />
+      {location.pathname === "/" ? null : (
+        <Refresh onClick={() => setCount(count + 1)} />
+      )}
+
       <App key={count} />
     </Fragment>
   );
